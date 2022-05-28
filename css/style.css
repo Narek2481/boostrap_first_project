@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .navbar-dark .navbar-nav .nav-link::before {
+    content: "";
+    width: 0%;
+    border: 1px solid white;
+    display: block;
+    display: none;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover.nav-link::before {
+    width: 100%;
+    transition: 0.5s;
+    display: block;
+}
+
+.social_icons {
+    display: flex;
+    list-style-type: none;
+}
+
+.social_icons li {
+    padding: 12px 5px 0;
+}
+
+header .navbar-nav {
+    margin-left: auto;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gentium Book Basic', serif;
+    padding: 0 1em;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 85px;
+    color: white;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    margin-bottom: 40px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid_contaner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.mini_1 {
+    text-align: right;
+}
+
+.grid_contaner button {
+    border: none;
+    padding: 10px 30px;
+    margin-bottom: 110px;
+}
+
+.mini_1 button {
+    background-color: rgba(35, 36, 30, 0.5);
+    color: white;
+}
+
+.mini_2 button {
+    background-color: rgba(242, 243, 240, 0.5);
+    color: white;
+}
+
+/* section first----------------------------------------------------------990-09--=============== */
+#first {
+    padding: 70px 0px;
+
+}
+
+#first h2 {
+    color: #cc9900;
+    font-family: Yeseva One;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#first p {
+    margin-bottom: 50px;
+}
+
+.last_img {
+    margin-left: 75px;
+}
+
+
+/* section middel */
+#middle {
+    background-image: url(../img/flower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.mini_4 {
+    padding: 80px;
+    background-image: url(../img/black.png);
+    background-size: cover;
+
+}
+
+#middle h2 {
+    margin-bottom: 20px;
+}
+
+#middle p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.in_mini_4 {
+    width: 65%;
+}
+
+/* section starters---------------------------------------------------------------------------------- */
+
+#starters {
+    padding: 80px;
+    font-family: "Yeseva One";
+    background-image: url(../img/startersbg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#starters .col img {
+    margin: 15px 0;
+}
+
+.line {
+    background-color: #CDAB4A;
+    width: 100%;
+    height: 2px;
+    clear: both;
+    margin: 5px 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.black {
+    font-size: 15px;
+    clear: both;
+    font-family: "lato";
+    margin-bottom: 30px;
+    display: block;
+    text-align: left;
+}
+
+.salads {
+    margin-top: 50px;
+}
+
+.border {
+    border: solid #FFC107 1px;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.special {
+    padding: 3px 5px;
+    position: absolute;
+    bottom: 65px;
+    right: 0;
+}
+
+.mrg {
+    margin-bottom: 0;
+}
+
+
+
+.dishes {
+    margin-top: 10px;
+}
+
+.pad {
+    padding: 0 50px;
+}
+
+
+
+/*section guest ------------------------------------------------------------------------------------------------*/
+#guest {
+    background-image: url(../img/guest.png);
+    padding: 100px 0;
+
+}
+
+.guest_center {
+    padding: 70px 60px;
+    background-image: url(../img/black.png);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.in_p {
+    position: relative;
+}
+
+.mini_p {
+    margin-top: 50px;
+}
+
+/* secton bottom_________________---------------------------------------------------------------------------------- */
+#right_food {
+    padding: 100px 0px;
+}
+
+.pdi {
+    padding: 0px 40px;
+}
+
+.if_mini {
+    margin-top: 50px;
+}
+
+.forma {
+    margin-top: 50px;
+}
+
+.bt_1 {
+    border: none;
+    padding: 5px 50px;
+    margin-top: 42px;
+}
+
+/* footer _------------------------------------------------------------------------------------------------------------ */
+footer {
+    background-color: #191919;
+    color: white;
+    padding: 50px 200px;
+}
+
+footer p {
+    margin-top: 30px;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.pno_1 {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+/* @media-----------------------------------------------------0000---------------------------------- */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width:1200px) {
+    .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .guest_center {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+
+    .first_ch {
+        margin-bottom: 20px;
+    }
+
+    .foot_1 {
+        margin-top: 50px;
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    header .navbar-dark .navbar-nav .nav-link {
+        padding: 0 10px;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .foot_1 {
+        margin-top: 50px;
+        padding: 22px;
+        width: 98%;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
+    .pda {
+        padding: 0;
+    }
+
+    .haram {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .pad {
+        padding: 0;
+    }
+
+    .special {
+        bottom: 65px;
+        right: 0;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    #starters {
+        padding: 80px 0px;
+    }
+
+    .last_img {
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    #starters {
+        padding: 80px 0px;
+    }
+
+    .on_mini_4 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    #starters {
+        padding: 80px 40px;
+    }
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .mini_4 {
+        padding: 30px;
+    }
+
+    #middle p {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 443px) {
+    .special {
+        bottom: 87px;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 394px) {
+    .grid_contaner button {
+        padding: 10px 5px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media screen and (max-width:1200px) {}
